@@ -40,7 +40,7 @@
 		1112F9137F88567E9B7475FB /* Pods_FFReformerKeysKit_Tests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFReformerKeysKit_Tests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		221D9CAF99F98A34D857037F /* Pods-FFReformerKeysKit_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFReformerKeysKit_Tests.release.xcconfig"; path = "Target Support Files/Pods-FFReformerKeysKit_Tests/Pods-FFReformerKeysKit_Tests.release.xcconfig"; sourceTree = "<group>"; };
 		294EBF9B8A69B2BD53561EE7 /* Pods-FFReformerKeysKit_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFReformerKeysKit_Example.release.xcconfig"; path = "Target Support Files/Pods-FFReformerKeysKit_Example/Pods-FFReformerKeysKit_Example.release.xcconfig"; sourceTree = "<group>"; };
-		49061B46D8842E2E3E3586C4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		49061B46D8842E2E3E3586C4 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
 		6003F58A195388D20070C39A /* FFReformerKeysKit_Example.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FFReformerKeysKit_Example.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		6003F58D195388D20070C39A /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
 		6003F58F195388D20070C39A /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
@@ -65,8 +65,8 @@
 		8DB8B8DBDA5829977ED99E7A /* Pods-FFReformerKeysKit_Tests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFReformerKeysKit_Tests.debug.xcconfig"; path = "Target Support Files/Pods-FFReformerKeysKit_Tests/Pods-FFReformerKeysKit_Tests.debug.xcconfig"; sourceTree = "<group>"; };
 		A56A2AAB629A21A84B54B774 /* Pods-FFReformerKeysKit_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-FFReformerKeysKit_Example.debug.xcconfig"; path = "Target Support Files/Pods-FFReformerKeysKit_Example/Pods-FFReformerKeysKit_Example.debug.xcconfig"; sourceTree = "<group>"; };
 		BD440900B03B004EFB26C99E /* Pods_FFReformerKeysKit_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_FFReformerKeysKit_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
-		BFAA2ADCBCC0A9139D340430 /* FFReformerKeysKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = FFReformerKeysKit.podspec; path = ../FFReformerKeysKit.podspec; sourceTree = "<group>"; };
-		CDD3A11A5317D19209E3A208 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		BFAA2ADCBCC0A9139D340430 /* FFReformerKeysKit.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = FFReformerKeysKit.podspec; path = ../FFReformerKeysKit.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		CDD3A11A5317D19209E3A208 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -103,7 +103,6 @@
 				8DB8B8DBDA5829977ED99E7A /* Pods-FFReformerKeysKit_Tests.debug.xcconfig */,
 				221D9CAF99F98A34D857037F /* Pods-FFReformerKeysKit_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -258,6 +257,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);
